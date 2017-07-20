@@ -1,0 +1,39 @@
+{
+  "name": "deep-monokai",
+  "displayName": "Deep Monokai Theme",
+  "version": "0.0.1",
+  "description": "Monokai Theme for Visual Studio Code",
+  "publisher": "edonet",
+  "engines": {
+      "vscode": "^1.13.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+      "themes": [
+          {
+              "label": "Deep Monokai",
+              "uiTheme": "vs-dark",
+              "path": "./themes/DeepMonokai-color-theme.json"
+          }
+      ]
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/edonet/monokai.git"
+  },
+  "bugs": {
+      "url": "https://github.com/edonet/monokai/issues"
+  },
+  "homepage": "https://github.com/edonet/monokai/blob/master/README.md",
+  "keywords": [
+      "Vscode",
+      "Theme",
+      "Onedark",
+      "Monokai"
+  ],
+  "author": "edoner <edonet@163.com>",
+  "license": "MIT"
+}
